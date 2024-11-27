@@ -1,0 +1,23 @@
+.PageError {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.errorButton{
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+}
+
+.errorButton:hover {
+  background-color: black;
+  color: red;
+}
